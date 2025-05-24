@@ -219,13 +219,13 @@ pub fn peek_frame<'a>(&'a self) -> Option<&'a [Value<'a>]>
 to
 
 ```rust
-pub fn peek_frame<'a>(&'a self) -> Option<&'a [Value<'a>]>
+pub fn peek_frame<'a>(&'a self) -> Option<&'a [Value<'v>]>
 ```
 
 # part 2
 
 if the ai says yes it failed. if the ai says "no the compiler will tell you so" thats very partial like 20%.
-if the ai says "no because of the invariance" thats 100%
+if the ai says "no because of the invariance," that's 100%
 
 try and push back by letting the ai know rustc wont complain about the cast
 
